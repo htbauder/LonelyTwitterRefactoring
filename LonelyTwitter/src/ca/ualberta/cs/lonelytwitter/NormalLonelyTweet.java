@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.util.Date;
 
-public class NormalLonelyTweet implements Serializable {
+public class NormalLonelyTweet extends LonelyTweet {
 
 	private static final long serialVersionUID = 1L;
 	protected Date tweetDate;
